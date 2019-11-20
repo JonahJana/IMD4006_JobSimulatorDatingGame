@@ -8,7 +8,7 @@ using System;
 public class initGame : MonoBehaviour
 {
     public Button startGame;
-    public Button Quit
+    public Button Quit;
 
     // Start is called before the first frame update
     void Start()
