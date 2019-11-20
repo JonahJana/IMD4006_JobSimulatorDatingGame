@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 862407552}
   - component: {fileID: 862407551}
   m_Layer: 5
-  m_Name: NAME BOX
+  m_Name: CHARACTER NAME BOX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 932843141}
   - component: {fileID: 932843142}
   m_Layer: 5
-  m_Name: New Sprite
+  m_Name: Interviewer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1013,7 +1013,7 @@ GameObject:
   - component: {fileID: 2001066981}
   - component: {fileID: 2001066980}
   m_Layer: 5
-  m_Name: CHARCTER DIALOGUE BOX
+  m_Name: CHARACTER DIALOGUE BOX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

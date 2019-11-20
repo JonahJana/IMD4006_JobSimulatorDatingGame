@@ -9,7 +9,7 @@ public class CharacterDialogueManager : MonoBehaviour
 
 
     // charcter sprite
-
+    public Sprite Interviewer;
 
     // buttons
     public Button responseButton_1;
