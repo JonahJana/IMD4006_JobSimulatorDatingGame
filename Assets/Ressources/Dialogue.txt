@@ -1,0 +1,68 @@
+David,"Hello, how are you?",0
+Rachel,"Fine, thanks!",0
+
+
+
+b12, Interviewer, "kasdhflsdahfklsdahfjkaskdfhs", 0
+you, "asdlkjflsd;", 0, a12
+you, "asdkfhdhh", 1, f65
+you, "ghjhghjkjh", 2, b2
+you, "asdgfhdsklf", 3, j89
+
+
+response location, Interviewer Name, "interviewer speach", sprite position
+playerName, "player response 1", button location 1, next response location 1
+playerName, "player response 2", button location 2, next response location 2
+playerName, "player response 3", button location 3, next response location 3
+playerName, "player response 4", button location 4, next response location 4
+
+
+A01, Mr.Truffles, "Good day sir, how are you this fine morning. I’m doing exceedingly well. I actually just patented my new invention, a Whirly Gig! It’s an amazing invention of my own design, it goes for hours on half the power! I worked with some amazing people over in the university of Carpe dium. You know you remind me of one of the students I worked with, what was their name, Jeffrey? Prama? Cooldude95? A weird world we live in isn’t it, people are putting numbers at the end of their name, of all things! Anyway, you are probably here about the interview, yes yes. Hmmmm. First off, What do you know about the Logic particle study of 88, and the resulting effects in the Sub-Dino study of histories strangest creations?", 0
+you, "All I know is that I'm here to get hired.", 0, D02
+you, "Well Actually, It's the Logic Particle Study of '89.", 1, F07
+you, "Hey, that sounds pretty cool, but I don't vibe with this.", 2, J09
+you, "Hmmmm, I don't know very much, do you care to eloborate?", 3, Y23
+
+D02, Mr.Truffles, "Ah, I see. Very assertive I like that. It reminds me of my grandfather. Explored the entire arctic on a tricycle, the mad lad. Got twenty-two commendations for what he did in the war, but he really didn’t care. He always introduced himself as Sir Isacc Truffles, the Conqueror of the Artic by Tricycle. An excessive title to be sure but he was proud of what he did. And I am proud of you. You need a title, a way of saying to the world that you are proud of yourself, that you have carved out a place in this godforsaken world through naught but your will alone.", 1
+you, "Assertively* And what better way to do that than for you to hire me ", 0, P05
+you, "Assertively* Absolutely, I have already made my name through the many discoveries I’ve made in academia ", 1, D03
+you, "You think this is a bit much, and blankly stare* ", 2, Z05
+you, "", 3, 
+
+D03, Mr.Truffles, "Ah yes, a fellow scholar. You look like someone interested in the study of partially together Wixmix’s. A colleague of mine studied them for fourteen years under one Partii Mahn, in California World University. They only had rave reviews of their time, but their understanding of the Wixmix’s culture, history, and portion sizes has, as they put it, Rocked them to their core and changed they way the understand the base functions of the world and the universe around us.", 0
+you, "Stare", 0, Z05
+you, "-	Growing our understanding of the universe is the most important step in a further understanding of ourselves ", 1, P05
+you, "", 2, 
+you, "", 3, 
+
+F07, Mr.Truffles, "Ahhh-pahhp-pahp. Do not interrupt me. These studies require the full explanation. As I was saying. the Sub-Dino study of histories strangest creations was altered so incredibly that BOTH the world of Birds theme park AND the Hydron Reactor in Missisipi were entirely demolished to make room for the buildings that would house a new group of theorists to ponder theories on how this logic particle creates new meaning via this relation", 0
+you, "Umm okay", 0, Z05
+you, "Wow that is incredibly interesting, I am extremely excited to learn more about that", 1, D03
+you, "", 2, 
+you, "", 3, 
+
+J09, Mr.Truffles, "Well that is rude, but none the less. I RESPECT it.", 2
+you, "", 0, 
+you, "", 1, 
+you, "", 2, 
+you, "", 3, 
+
+P05, Mr.Truffles, "Glorious! Magnificent! Effervescent! This energy is enthralling, it is exhilarating. I cannot wait to work with you, Now surrender that blasting Resume to me!", 2
+you, "Congrats you handed in your resume", 0, 000
+you, "", 0, 
+you, "", 1, 
+you, "", 2, 
+you, "", 3, 
+
+Y23, Mr.Truffles, "", 1
+you, "", 0, P05
+you, "", 1, D03
+you, "", 2, Z05
+you, "", 3, A02
+
+Z05, Mr.Truffles, "He stares back at you with a look of a madman", 3
+you, "Leave", 0, J09
+you, "Stare back harder and crazier ", 0, P05
+you, "", 1, 
+you, "", 2,
+you, "", 3,
