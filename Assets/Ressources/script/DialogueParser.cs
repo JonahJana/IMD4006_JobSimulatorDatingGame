@@ -16,9 +16,9 @@ public class DialogueParser : MonoBehaviour
 
     struct DialogueLine
     {
-        string name;
-        string content;
-        int pose; 
+        public string name;
+        public string content;
+        public int pose; 
 
         public DialogueLine(string n, string c, int p)
         {
@@ -37,6 +37,8 @@ public class DialogueParser : MonoBehaviour
         file += sceneNum;
         file += ".txt";
 
+
+        lines = new List<DialogueLine>();
         LoadDialogue (file); 
     }
 
@@ -45,6 +47,25 @@ public class DialogueParser : MonoBehaviour
     {
         
     }
+
+
+    public string GetName(int lineNumber)
+    {
+        if (lineNumber < lines.Count) return lines [lineNumber].name;
+        return "";
+    }
+
+    public string GetContent(int lineNumber)
+    {
+        if (lineNumber < lines.Count) return lines [lineNumber].content;
+        return "";
+    }
+    public int GetPose(int lineNumber)
+    {
+        if (lineNumber < lines.Count) return lines [lineNumber].pose;
+        return 0;
+    }
+
 
     void LoadDialogue(string filename)
     {

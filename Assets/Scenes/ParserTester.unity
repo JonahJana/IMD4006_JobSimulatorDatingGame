@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 364490853}
   - component: {fileID: 364490852}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DialogueParserObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
