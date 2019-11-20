@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 186277332}
   - component: {fileID: 186277331}
   m_Layer: 5
-  m_Name: Text
+  m_Name: responseText_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 1115493480}
   - component: {fileID: 1115493479}
   m_Layer: 5
-  m_Name: RESPONSE 4
+  m_Name: RESPONSE_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -724,8 +724,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 139.82996, y: -67.42}
-  m_SizeDelta: {x: 279.66, y: 35.24}
+  m_AnchoredPosition: {x: 216.97, y: -67.42}
+  m_SizeDelta: {x: 433.95, y: 35.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115493479
 MonoBehaviour:
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 1592433212}
   - component: {fileID: 1592433211}
   m_Layer: 5
-  m_Name: Text
+  m_Name: responseText_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 1966076013}
   - component: {fileID: 1966076012}
   m_Layer: 5
-  m_Name: RESPONSE 2
+  m_Name: RESPONSE_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -919,8 +919,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -153.15001, y: -67.422}
-  m_SizeDelta: {x: 306.3, y: 35.245}
+  m_AnchoredPosition: {x: -219.68, y: -67.422}
+  m_SizeDelta: {x: 439.35, y: 35.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966076012
 MonoBehaviour:
@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 2023198586}
   - component: {fileID: 2023198585}
   m_Layer: 5
-  m_Name: Text
+  m_Name: responseText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1168,7 +1168,7 @@ GameObject:
   - component: {fileID: 2040297150}
   - component: {fileID: 2040297149}
   m_Layer: 5
-  m_Name: RESPONSE 3
+  m_Name: RESPONSE_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1191,8 +1191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 139.83, y: -31.8}
-  m_SizeDelta: {x: 279.66, y: 36}
+  m_AnchoredPosition: {x: 216.97, y: -31.8}
+  m_SizeDelta: {x: 433.95, y: 36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040297149
 MonoBehaviour:
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 2054890400}
   - component: {fileID: 2054890399}
   m_Layer: 5
-  m_Name: Text
+  m_Name: responseText_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1363,7 +1363,7 @@ GameObject:
   - component: {fileID: 2063925450}
   - component: {fileID: 2063925449}
   m_Layer: 5
-  m_Name: RESPONSE 1
+  m_Name: RESPONSE_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1386,8 +1386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -153.15001, y: -31.8}
-  m_SizeDelta: {x: 306.3, y: 36}
+  m_AnchoredPosition: {x: -219.68, y: -31.8}
+  m_SizeDelta: {x: 439.35, y: 36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063925449
 MonoBehaviour:
