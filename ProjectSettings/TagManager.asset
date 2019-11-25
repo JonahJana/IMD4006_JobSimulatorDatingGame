@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - talkingBox
+  - character
+  - background
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3242832715
+    locked: 0
+  - name: character
+    uniqueID: 2647446685
+    locked: 0
+  - name: talkingBox
+    uniqueID: 2471598561
     locked: 0
