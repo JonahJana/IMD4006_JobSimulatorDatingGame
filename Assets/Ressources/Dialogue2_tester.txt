@@ -1,0 +1,5 @@
+David,"Hello, how are you?",0,0,0
+You,"Fine, thanks!",0,a01,0
+You,"Very Good, thanks!",0,a02,1
+You,"Very Very Good, thanks!",0,a03,2
+You," Good, thanks!",0,a04,3

@@ -18,20 +18,24 @@ public class DialogueParser : MonoBehaviour
     {
         public string name;
         public string content;
-        public int pose; 
+        public int pose;
+        public string choice;
+        public int value;
 
-        public DialogueLine(string n, string c, int p)
+        public DialogueLine(string n, string c, int p,string ch, int v)
         {
             name = n;
             content = c;
             pose = p;
+            choice = ch;
+            value = v;
         }
     } 
 
     // Start is called before the first frame update
     void Start()
     {
-        string file = "Dialogue";
+        string file = "Dialogue2_tester";
         string sceneNum = EditorApplication.currentScene;
         sceneNum = Regex.Replace(sceneNum, "[^0-9]","");
         file += sceneNum;
@@ -66,6 +70,18 @@ public class DialogueParser : MonoBehaviour
         return 0;
     }
 
+    public string GetChoice(int lineNumber)
+    {
+        if (lineNumber < lines.Count) return lines[lineNumber].choice;
+        return "";
+    }
+
+    public int GetValue(int lineNumber)
+    {
+        if (lineNumber < lines.Count) return lines[lineNumber].value;
+        return 0;
+    }
+
 
     void LoadDialogue(string filename)
     {
@@ -80,9 +96,14 @@ public class DialogueParser : MonoBehaviour
                 line = r.ReadLine();
                 if (line != null)
                 {
+
                     string[] line_values = SplitCsvLine(line);
-                    DialogueLine line_entry = new DialogueLine(line_values[0], line_values[1], int.Parse(line_values[2]));
+                    Debug.Log(line_values.Length);
+                    if(line_values.Length ==5)
+                    { 
+                    DialogueLine line_entry = new DialogueLine(line_values[0], line_values[1], int.Parse(line_values[2]), line_values[3], int.Parse(line_values[4]));
                     lines.Add(line_entry);
+                }
                 }
             }
             while (line != null);

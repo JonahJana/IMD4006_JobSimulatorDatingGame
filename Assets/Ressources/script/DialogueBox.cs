@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueBox : MonoBehaviour
 {
@@ -28,6 +29,10 @@ public class DialogueBox : MonoBehaviour
         {
             dialogue = parser.GetContent(lineNum);
             lineNum++;
+            GameObject.Find("ButtonOp1").GetComponentInChildren<Text>().text = dialogue;
+            GameObject.Find("ButtonOp2").GetComponentInChildren<Text>().text = dialogue;
+            GameObject.Find("ButtonOp3").GetComponentInChildren<Text>().text = dialogue;
+            GameObject.Find("ButtonOp4").GetComponentInChildren<Text>().text = dialogue;
         }
         
     }

@@ -3,18 +3,12 @@ Rachel,"Fine, thanks!",0
 
 
 
-b12, Interviewer, "kasdhflsdahfklsdahfjkaskdfhs", 0
+Interviewer, "kasdhflsdahfklsdahfjkaskdfhs", 0
 you, "asdlkjflsd;", 0, a12
 you, "asdkfhdhh", 1, f65
 you, "ghjhghjkjh", 2, b2
 you, "asdgfhdsklf", 3, j89
 
-
-response location, Interviewer Name, "interviewer speach", sprite position
-playerName, "player response 1", button location 1, next response location 1
-playerName, "player response 2", button location 2, next response location 2
-playerName, "player response 3", button location 3, next response location 3
-playerName, "player response 4", button location 4, next response location 4
 
 
 A01, Mr.Truffles, "Good day sir, how are you this fine morning. I’m doing exceedingly well. I actually just patented my new invention, a Whirly Gig! It’s an amazing invention of my own design, it goes for hours on half the power! I worked with some amazing people over in the university of Carpe dium. You know you remind me of one of the students I worked with, what was their name, Jeffrey? Prama? Cooldude95? A weird world we live in isn’t it, people are putting numbers at the end of their name, of all things! Anyway, you are probably here about the interview, yes yes. Hmmmm. First off, What do you know about the Logic particle study of 88, and the resulting effects in the Sub-Dino study of histories strangest creations?", 0
