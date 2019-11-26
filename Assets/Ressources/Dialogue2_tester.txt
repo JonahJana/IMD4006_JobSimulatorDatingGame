@@ -4,7 +4,12 @@ You,"Very Good, thanks!",0,a02,1
 You,"Very Very Good, thanks!",0,a03,2
 You," Good, thanks!",0,a04,3
 David,"IT WORKS?",0,0,0
-You,"Fine, thanks!",0,a01,0
-You,"Very Good, thanks!",0,a02,1
-You,"Very Very Good, thanks!",0,a03,2
-You," Good, thanks!",0,a04,3
+You,"Fine, thanks!",0,b01,0
+You,"Very Good, thanks!",0,b02,1
+You,"Very Very Good, thanks!",0,b03,2
+You," Good, thanks!",0,b04,3
+David,"IT WORKS AGAIN",0,0,0
+You,"yes",0,c01,0
+You,"yes",0,c02,1
+You,"yes",0,c03,2
+You,"yes",0,c04,3

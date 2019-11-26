@@ -10,13 +10,21 @@ public class DialogueBox : MonoBehaviour
 
     public string dialogue;
     public string dialogue_btns;
+
     string CurrentChoice;
+   
+
+
     int currentButton;
     public Button[] ButtonsChoice;
 
     int lineNum;
     int Sequence;
     int NextSquence;
+
+
+    bool checkpls;
+
 
     public GUIStyle customStyle;
 
@@ -30,6 +38,9 @@ public class DialogueBox : MonoBehaviour
         lineNum = 0;
         NextSquence = 0;
 
+        checkpls = false;
+        CurrentChoice = " ";
+
 
     }
 
@@ -38,6 +49,7 @@ public class DialogueBox : MonoBehaviour
     {
      if(Sequence == NextSquence)
         {
+            //Debug.Log("Run once");
             dialogue = parser.GetContent(lineNum);
            
             for(int i = 0; i < 4; i++)
@@ -47,9 +59,18 @@ public class DialogueBox : MonoBehaviour
                 string choice = parser.GetChoice(lineNum + 1 + i);
                 ButtonsChoice[i].onClick.AddListener(delegate { test(choice);});
             }
+            Sequence = 0;
             NextSquence++;
         }
-         
+
+     if(checkpls)
+        {
+            CheckOptions();
+            checkpls = false;
+        }
+        
+
+
     }
 
      void OnGUI()
@@ -60,12 +81,34 @@ public class DialogueBox : MonoBehaviour
      void test( string choice)
     {
         CurrentChoice = choice;
-        Debug.Log(CurrentChoice);
+        checkpls = true;
+        //Debug.Log(CurrentChoice);
     }
 
     void CheckOptions()
     {
 
+        //this is the brute of the engine this case system navigates us in the parser to make sure everything is shown correctly.
+        //Debug.Log("tester");
+        switch (CurrentChoice)
+        {
+            
+            case "a02": lineNum = 5; Sequence = NextSquence; resetButon(); break;
+            case "b03": lineNum = 10; Sequence = NextSquence; resetButon(); break;
+
+        }
 
     }
+    //I remove all the listener from the button cause if we didnt do that they would stack upon each other and cause us a lot of pain
+    void resetButon()
+    {
+        for (int i = 0; i < 4; i++)
+        {
+           
+            ButtonsChoice[i].onClick.RemoveAllListeners();
+        }
+    }
+
+   
+
 }
