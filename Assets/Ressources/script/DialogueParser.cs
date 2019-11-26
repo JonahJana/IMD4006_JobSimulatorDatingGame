@@ -82,7 +82,7 @@ public class DialogueParser : MonoBehaviour
         return 0;
     }
 
-
+    //we are loading the file that contains all  our dialoge
     void LoadDialogue(string filename)
     {
         string file = "Assets/Ressources/" + filename;
@@ -96,9 +96,9 @@ public class DialogueParser : MonoBehaviour
                 line = r.ReadLine();
                 if (line != null)
                 {
-
+                    //my code here resplit the current line its reading in 5 values that we rely on for our parser
                     string[] line_values = SplitCsvLine(line);
-                    Debug.Log(line_values.Length);
+                    //Debug.Log(line_values.Length);
                     if(line_values.Length ==5)
                     { 
                     DialogueLine line_entry = new DialogueLine(line_values[0], line_values[1], int.Parse(line_values[2]), line_values[3], int.Parse(line_values[4]));
