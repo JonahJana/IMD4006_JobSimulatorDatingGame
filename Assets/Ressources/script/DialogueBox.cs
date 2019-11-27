@@ -104,7 +104,7 @@ public class DialogueBox : MonoBehaviour
         {
             
             case "a02": lineNum = 5; Sequence = NextSquence; resetButon(); break;
-            case "b03": lineNum = 10; Sequence = NextSquence; resetButon(); break;
+            case "b01": lineNum = 10; Sequence = NextSquence; resetButon(); break;
 
         }
 
