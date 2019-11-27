@@ -13,3 +13,23 @@ You,"Continue",0,c05,0
 You,"Continue",0,c05,1
 You,"Continue",0,c05,2
 You,"Continue",0,c05,3
+"Cindy Banks","I like your style! I too was born with immense talent.",8,0,0
+You,"Continue",0,c05,0
+You,"Continue",0,c05,1
+You,"Continue",0,c05,2
+You,"Continue",0,c05,3
+"Cindy Banks","That explains why your eye has been twitching, it's been extremely distracting and intensely unattractive.",7,0,0
+You,"Continue",0,c05,0
+You,"Continue",0,c05,1
+You,"Continue",0,c05,2
+You,"Continue",0,c05,3
+"Cindy Banks","I envy the shots you must have captured.",8,0,0
+You,"Continue",0,c05,0
+You,"Continue",0,c05,1
+You,"Continue",0,c05,2
+You,"Continue",0,c05,3
+"Cindy Banks","I envy the shots you must have captured.",8,0,0
+You,"Continue",0,c05,0
+You,"Continue",0,c05,1
+You,"Continue",0,c05,2
+You,"Continue",0,c05,3
