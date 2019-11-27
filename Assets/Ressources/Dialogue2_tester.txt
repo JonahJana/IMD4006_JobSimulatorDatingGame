@@ -1,9 +1,9 @@
-David,"Hello, how are you?",0,0,0
-You,"Fine, thanks!",0,a01,0
-You,"Very Good, thanks!",0,a02,1
-You,"Very Very Good, thanks!",0,a03,2
-You," Good, thanks!",0,a04,3
-David,"IT WORKS?",0,0,0
+"???","Hello there, the name's Cindy Banks, but I'm sure you already knew that. You probably recognise me from Hawt Take Magazine. Im looking for a BOLD new protege that can match my flawless photographer's eye. I must say it is a tall order and based on first appearances you seem rather...short. And I'm of the opinion that size definitely matters. Regardless, why don't we begin with a couple of questions.",9,0,0
+You,"Continue",0,a02,0
+You,"Continue",0,a02,1
+You,"Continue",0,a02,2
+You,"Continue",0,a02,3
+"Cindy Banks","Tell me about your past experiences. ",9,0,0
 You,"Fine, thanks!",0,b01,0
 You,"Very Good, thanks!",0,b02,1
 You,"Very Very Good, thanks!",0,b03,2

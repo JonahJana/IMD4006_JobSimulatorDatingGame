@@ -11,12 +11,19 @@ public class DialogueBox : MonoBehaviour
     public string dialogue;
     public string dialogue_btns;
 
-    string CurrentChoice;
-   
+    string name_interviewer;
 
+    string CurrentChoice;
+
+    public Text interviewerSay;
+    public Text interviewerName;
 
     int currentButton;
     public Button[] ButtonsChoice;
+
+    public Sprite[] CharacterSprite;
+
+    public GameObject interviewer;
 
     int lineNum;
     int Sequence;
@@ -50,9 +57,12 @@ public class DialogueBox : MonoBehaviour
      if(Sequence == NextSquence)
         {
             //Debug.Log("Run once");
+            name_interviewer = parser.GetName(lineNum);
             dialogue = parser.GetContent(lineNum);
-           
-            for(int i = 0; i < 4; i++)
+            interviewer.GetComponent<Image>().sprite = CharacterSprite[parser.GetPose(lineNum)];
+            interviewerSay.text = dialogue;
+            interviewerName.text = name_interviewer;
+            for (int i = 0; i < 4; i++)
             {
                 dialogue_btns = parser.GetContent(lineNum + 1 +i);
                 ButtonsChoice[i].GetComponentInChildren<Text>().text = dialogue_btns;
@@ -75,7 +85,7 @@ public class DialogueBox : MonoBehaviour
 
      void OnGUI()
     {
-        dialogue = GUI.TextField(new Rect(100, 400, 600, 200), dialogue, customStyle);
+        //dialogue = GUI.TextField(new Rect(100, 400, 600, 200), dialogue, customStyle);
     }
 
      void test( string choice)
