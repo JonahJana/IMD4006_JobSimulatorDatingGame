@@ -20,7 +20,7 @@ public class initGame : MonoBehaviour
 
     void StartTheGame()
     {
-        SceneManager.LoadScene("SceneTemplate", LoadSceneMode.Single);
+        SceneManager.LoadScene("intro_1", LoadSceneMode.Single);
     }
 
     void QuitTheGame()
