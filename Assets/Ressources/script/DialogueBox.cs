@@ -29,7 +29,7 @@ public class DialogueBox : MonoBehaviour
     int Sequence;
     int NextSquence;
 
-
+    public Image fadeobj;
     bool checkpls;
 
 
@@ -38,6 +38,8 @@ public class DialogueBox : MonoBehaviour
 
     int Cindypoint = 0;
     int CindySeducepoint = 0;
+
+    bool firsttime = true;
 
     // Start is called before the first frame update
     void Start()
@@ -52,18 +54,25 @@ public class DialogueBox : MonoBehaviour
         checkpls = false;
         CurrentChoice = " ";
 
+      
+
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (firsttime)
+        {
+            StartCoroutine(Fadein_bg());
+            firsttime = false;
+        }
         if (Sequence == NextSquence)
         {
             //Debug.Log("Run once");
             name_interviewer = parser.GetName(lineNum);
             dialogue = parser.GetContent(lineNum);
-            interviewer.GetComponent<Image>().sprite = CharacterSprite[parser.GetPose(lineNum)];
+            animatespriteChage();
             interviewerSay.text = dialogue;
             interviewerName.text = name_interviewer;
             for (int i = 0; i < 4; i++)
@@ -128,7 +137,7 @@ public class DialogueBox : MonoBehaviour
             case "e03": addCindyFlirtpoint(); lineNum = 95; Sequence = NextSquence; resetButon(); break;
             case "e04": lineNum = 100; Sequence = NextSquence; resetButon(); break;
             case "f05": selectEndingCindy(); Sequence = NextSquence; resetButon(); break;
-            case "End05": lineNum = 120; Sequence = NextSquence; resetButon(); break;
+            case "End05": StartCoroutine(Fadeinout_bg()); lineNum = 120; Sequence = NextSquence; resetButon(); break;
 
         }
 
@@ -170,5 +179,57 @@ public class DialogueBox : MonoBehaviour
         Debug.Log(CindySeducepoint);
     }
 
+    void animatespriteChage()
+    {
+        StartCoroutine(Transition_dude());
+       
+        
+    }
+
+    IEnumerator Transition_dude()
+    {
+        for (float i = 1; i >= 0; i -= (Time.deltaTime) * 4)
+        {
+
+            interviewer.GetComponent<Image>().color = new Color(1, 1, 1, i);
+            yield return null;
+        }
+
+        for (float i = 0; i <= 1; i += (Time.deltaTime)*4)
+            {
+
+            interviewer.GetComponent<Image>().sprite = CharacterSprite[parser.GetPose(lineNum)];
+            interviewer.GetComponent<Image>().color = new Color(1, 1, 1, i);
+                yield return null;
+            }
+    }
+    
+    IEnumerator Fadein_bg()
+    {
+        for (float i = 1; i >= 0; i -= Time.deltaTime)
+        {
+
+            fadeobj.color = new Color(0, 0, 0, i);
+            yield return null;
+        }
+    }
+
+    IEnumerator Fadeinout_bg()
+    {
+        
+        for (float i = 0; i <= 1; i += (Time.deltaTime) * 4)
+        {
+            fadeobj.color = new Color(0, 0, 0, i);
+            yield return null;
+        }
+        for (float i = 1; i >= 0; i -= (Time.deltaTime) * 3)
+        {
+
+            fadeobj.color = new Color(0, 0, 0, i);
+            yield return null;
+        }
+    }
+
 
 }
+

@@ -57,7 +57,7 @@ You,"Continue",0,d05,3
 You,"As far as I need. When the art calls, I answer.",0,d01,0
 You,"All the way ",0,d02,1
 You,"Only as far as safety will allow. I want to live to take another picture.",0,d03,2
-You,"I will not even touch a camera, not since… the incident",0,d04,3
+You,"I will not even touch a camera, not since... the incident",0,d04,3
 "Cindy Banks","Exactly right! People don't understand how demanding art can be! ",8,0,0
 You,"Continue",0,e05,0
 You,"Continue",0,e05,1
@@ -82,7 +82,7 @@ You,"Continue",0,e05,3
 You,"I'm dedicated to my craft",0,e01,0
 You,"I'm always on the cutting edge of trends",0,e02,1
 You,"I only speak when spoken to.",0,e03,2
-You,"I scream whenever I see a camera. Every time. Ever since… the incident.",0,e04,3
+You,"I scream whenever I see a camera. Every time. Ever since... the incident.",0,e04,3
 "Cindy Banks", "What a vanilla response...",10,0,0
 You,"Continue",0,f05,0
 You,"Continue",0,f05,1
