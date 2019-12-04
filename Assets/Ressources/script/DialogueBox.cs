@@ -5,10 +5,14 @@ using UnityEngine.UI;
 
 public class DialogueBox : MonoBehaviour
 {
-
+    
     DialogueParser parser;
 
+    public float delayTexAnimation = 0.0001f;
+
     public string dialogue;
+
+    public string CurrentDialogue = " ";
     public string dialogue_btns;
 
     string name_interviewer;
@@ -73,7 +77,7 @@ public class DialogueBox : MonoBehaviour
             name_interviewer = parser.GetName(lineNum);
             dialogue = parser.GetContent(lineNum);
             animatespriteChage();
-            interviewerSay.text = dialogue;
+            StartCoroutine(TypeText());
             interviewerName.text = name_interviewer;
             for (int i = 0; i < 4; i++)
             {
@@ -230,6 +234,15 @@ public class DialogueBox : MonoBehaviour
         }
     }
 
+    IEnumerator TypeText() { 
+        for(int i = 0; i <= dialogue.Length; i++)
+    {
+            CurrentDialogue = dialogue.Substring(0, i);
+            interviewerSay.text = CurrentDialogue;
+
+            yield return new WaitForSeconds(delayTexAnimation);
+    }
+}
 
 }
 

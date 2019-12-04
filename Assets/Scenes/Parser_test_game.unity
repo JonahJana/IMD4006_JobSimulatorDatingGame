@@ -316,7 +316,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: 
 --- !u!222 &292638632
 CanvasRenderer:
@@ -915,7 +915,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7369c409087ecce43843a234a6a4ca63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayTexAnimation: 0.01
   dialogue: 
+  CurrentDialogue: ' '
   dialogue_btns: 
   interviewerSay: {fileID: 292638631}
   interviewerName: {fileID: 495912117}
