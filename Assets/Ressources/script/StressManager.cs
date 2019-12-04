@@ -5,68 +5,56 @@ using UnityEngine.UI;
 
 public class StressManager : MonoBehaviour
 {
-
     public GameObject stressBar;
-    public float startingWidth;
+
+    private float originalWidth;
+    private float onePercentSize;
 
     public float currentSize;
+    private float lowestSize;
+    private float highestSize;
 
     public Text barWidth;
-
-
-    //temporary
-    public Button addStress;
-    public Button removeStress;
 
     private void Start()
     {
         var tempSize = stressBar.transform as RectTransform;
-        startingWidth = tempSize.rect.width;
+        originalWidth = tempSize.rect.width;
 
-        addStress.onClick.AddListener(addStrs);
-        removeStress.onClick.AddListener(rStrs);
+        lowestSize = 0;
+        highestSize = 100;
 
-        updateWidthTxt(startingWidth);
+        onePercentSize = originalWidth / highestSize;
 
-        currentSize = 100;
+        updateStressSize(0);
     }
 
-    void updateWidthTxt(float gibenWidth)
+    void updateWidthTxt(float givenWidth)
     {
-        barWidth.text = "" + gibenWidth;
+        barWidth.text = "" + givenWidth;
     }
 
-    void decreaseStress(float percent)
-    {
-        currentSize = currentSize - percent;
 
-        float widthDelta = (startingWidth / 100) * currentSize;
-
-        var stressBarTransform = stressBar.transform as RectTransform;
-        stressBarTransform.sizeDelta = new Vector2(widthDelta, stressBarTransform.sizeDelta.y);
-
-        updateWidthTxt(widthDelta);
-    }
-
-    void increaseStress(float percent)
+    public void updateStressSize(float percent)
     {
         currentSize = currentSize + percent;
 
-        float widthDelta = (startingWidth / 100) * currentSize;
+        if(currentSize < 0)
+        {
+            currentSize = 0;
+        }
+        if(currentSize > 100)
+        {
+            // end the interview
+            currentSize = 100;
+            Debug.Log("way too stressed");
+        }
+
+        float newWidth = onePercentSize * currentSize;
 
         var stressBarTransform = stressBar.transform as RectTransform;
-        stressBarTransform.sizeDelta = new Vector2(widthDelta, stressBarTransform.sizeDelta.y);
+        stressBarTransform.sizeDelta = new Vector2(newWidth, stressBarTransform.sizeDelta.y);
 
-        updateWidthTxt(widthDelta);
-    }
-
-    void addStrs()
-    {
-        increaseStress(10);
-    }
-
-    void rStrs()
-    {
-        decreaseStress(10);
+        updateWidthTxt(newWidth);
     }
 }
