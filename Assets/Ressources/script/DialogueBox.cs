@@ -27,6 +27,10 @@ public class DialogueBox : MonoBehaviour
 
     public Sprite[] CharacterSprite;
 
+
+    public AudioSource VoiceInterview;
+    public AudioClip[] voiceLine;
+
     public GameObject interviewer;
 
     int lineNum;
@@ -79,6 +83,7 @@ public class DialogueBox : MonoBehaviour
             //Debug.Log("Run once");
             name_interviewer = parser.GetName(lineNum);
             dialogue = parser.GetContent(lineNum);
+            PlayAudioLine(parser.GetValue(lineNum));
             animatespriteChage();
             StartCoroutine(TypeText());
             interviewerName.text = name_interviewer;
@@ -218,6 +223,14 @@ public class DialogueBox : MonoBehaviour
     {
         EastonpointSeduce++;
         //Debug.Log(CindySeducepoint);
+    }
+
+
+    void PlayAudioLine(int selection)
+    {
+
+        VoiceInterview.clip = voiceLine[selection];
+        VoiceInterview.Play();
     }
 
 

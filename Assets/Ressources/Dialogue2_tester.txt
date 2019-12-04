@@ -1,29 +1,29 @@
-"???","Hello there, the name's Cindy Banks, but I'm sure you already knew that. You probably recognise me from Hawt Take Magazine. Im looking for a BOLD new protege that can match my flawless photographer's eye. I must say it is a tall order and based on first appearances you seem rather...short. And I'm of the opinion that size definitely matters. Regardless, why don't we begin with a couple of questions.",9,0,0
+"???","Hello there, the name's Cindy Banks, but I'm sure you already knew that. You probably recognise me from Hawt Take Magazine. Im looking for a BOLD new protege that can match my flawless photographer's eye. I must say it is a tall order and based on first appearances you seem rather...short. And I'm of the opinion that size definitely matters. Regardless, why don't we begin with a couple of questions.",9,0,6
 You,"Continue",0,a02,0
 You,"Continue",0,a02,1
 You,"Continue",0,a02,2
 You,"Continue",0,a02,3
-"Cindy Banks","Tell me about your past experiences. ",9,0,0
+"Cindy Banks","Tell me about your past experiences. ",9,0,7
 You,"I went to Summet University to study photography",0,b01,0
 You,"I'm self taught",0,b02,1
 You,"I haven't actually been near a camera since... the incident ",0,b03,2
 You,"Well this one time at photography camp...",0,b04,3
-"Cindy Banks","School? Really? Don't you think that's a bit pretentious? ",10,0,0
+"Cindy Banks","School? Really? Don't you think that's a bit pretentious? ",10,0,8
 You,"Continue",0,c05,0
 You,"Continue",0,c05,1
 You,"Continue",0,c05,2
 You,"Continue",0,c05,3
-"Cindy Banks","I like your style! I too was born with immense talent. ",8,0,0
+"Cindy Banks","I like your style! I too was born with immense talent. ",8,0,5
 You,"Continue",0,c05,0
 You,"Continue",0,c05,1
 You,"Continue",0,c05,2
 You,"Continue",0,c05,3
-"Cindy Banks","That explains why your eye has been twitching, it's been extremely distracting and intensely unattractive. ",7,0,0
+"Cindy Banks","That explains why your eye has been twitching, it's been extremely distracting and intensely unattractive. ",7,0,4
 You,"Continue",0,c05,0
 You,"Continue",0,c05,1
 You,"Continue",0,c05,2
 You,"Continue",0,c05,3
-"Cindy Banks","I envy the shots you must have captured. ",8,0,0
+"Cindy Banks","I envy the shots you must have captured. ",8,0,5
 You,"Continue",0,c05,0
 You,"Continue",0,c05,1
 You,"Continue",0,c05,2
@@ -148,7 +148,12 @@ You,"Continue",0,h05,0
 You,"Continue",0,h05,1
 You,"Continue",0,h05,2
 You,"Continue",0,h05,3
-"Easton Weston"," No problemo friend! What matters is your reducing cars on the road   ",5,0,0
+"Easton Weston"," What's your favourite kind of tree, friend?  ",6,0,0
+You,"The mighty oak! So strong and inspiring!",0,g01,0
+You,"Any tree, as long as its trunk is thicc ",0,g02,1
+You,"Can't say I have a favorite...?",0,g03,2
+You,"What really matters, is if I'll be going home with you later? ",0,g04,3
+"Easton Weston","I’d have to say sunflowers, hands down ",5,0,0
 You,"Continue",0,h05,0
 You,"Continue",0,h05,1
 You,"Continue",0,h05,2
