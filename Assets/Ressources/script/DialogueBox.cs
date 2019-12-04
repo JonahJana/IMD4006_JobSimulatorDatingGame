@@ -43,6 +43,9 @@ public class DialogueBox : MonoBehaviour
     int Cindypoint = 0;
     int CindySeducepoint = 0;
 
+    int Eastonpoint = 0;
+    int EastonpointSeduce = 0;
+
     bool firsttime = true;
 
     // Start is called before the first frame update
@@ -142,6 +145,11 @@ public class DialogueBox : MonoBehaviour
             case "e04": lineNum = 100; Sequence = NextSquence; resetButon(); break;
             case "f05": selectEndingCindy(); Sequence = NextSquence; resetButon(); break;
             case "End05": StartCoroutine(Fadeinout_bg()); lineNum = 120; Sequence = NextSquence; resetButon(); break;
+            case "g05":lineNum = 125; Sequence = NextSquence; resetButon(); break;
+            case "g01": addEpoint(); lineNum = 130; Sequence = NextSquence; resetButon(); break;
+            case "g02": lineNum = 135; Sequence = NextSquence; resetButon(); break;
+            case "g03": lineNum = 140; Sequence = NextSquence; resetButon(); break;
+            case "g04": addEFlirtpoint(); lineNum = 145; Sequence = NextSquence; resetButon(); break;
 
         }
 
@@ -171,17 +179,50 @@ public class DialogueBox : MonoBehaviour
         }
     }
 
+
+    void selectEndingEaston()
+    {
+        if (Eastonpoint >= 3)
+        {
+            lineNum = 105;
+        }
+        else if (EastonpointSeduce >= 3)
+        {
+            lineNum = 115;
+        }
+        else
+        {
+            lineNum = 110;
+        }
+    }
+
     void addCindypoint()
     {
         Cindypoint++;
-        Debug.Log(Cindypoint);
+        //Debug.Log(Cindypoint);
     }
 
     void addCindyFlirtpoint()
     {
         CindySeducepoint++;
-        Debug.Log(CindySeducepoint);
+        //Debug.Log(CindySeducepoint);
     }
+
+    void addEpoint()
+    {
+        Eastonpoint++;
+        //Debug.Log(Cindypoint);
+    }
+
+    void addEFlirtpoint()
+    {
+        EastonpointSeduce++;
+        //Debug.Log(CindySeducepoint);
+    }
+
+
+
+
 
     void animatespriteChage()
     {

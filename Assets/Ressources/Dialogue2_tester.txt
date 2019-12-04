@@ -123,3 +123,48 @@ You,"Continue",0,g05,0
 You,"Continue",0,g05,1
 You,"Continue",0,g05,2
 You,"Continue",0,g05,3
+"Easton Weston"," First things first, how did you get here today?  ",6,0,0
+You,"I took the bus, hence why I was late",0,g01,0
+You,"I drove, I wanted to be punctual, friend!",0,g02,1
+You,"The wind brought me here, I guess it was meant to be.",0,g03,2
+You,"What really matters, is if I'll be going home with you later? ",0,g04,3
+"Easton Weston"," No problemo friend! What matters is your reducing cars on the road   ",5,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
+"Easton Weston"," I suppose, but all those terrible chemicals being put into our poor atmosphere, just for one person!?  ",3,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
+"Easton Weston"," That's... unusual   ",4,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
+"Easton Weston"," Oh do you need a ride? No problem friend I have room for a carpool!  ",5,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
+"Easton Weston"," No problemo friend! What matters is your reducing cars on the road   ",5,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
+"Easton Weston"," I suppose, but all those terrible chemicals being put into our poor atmosphere, just for one person!?  ",3,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
+"Easton Weston"," That's... unusual   ",4,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
+"Easton Weston"," Oh do you need a ride? No problem friend I have room for a carpool!  ",5,0,0
+You,"Continue",0,h05,0
+You,"Continue",0,h05,1
+You,"Continue",0,h05,2
+You,"Continue",0,h05,3
