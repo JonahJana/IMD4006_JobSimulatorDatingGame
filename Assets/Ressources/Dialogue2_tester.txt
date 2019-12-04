@@ -33,3 +33,93 @@ You,"Is there any other kind?",0,c01,0
 You,"Noodity is so distasteful.",0,c02,1
 You,"Done artfully it can be tasteful.",0,c03,2
 You,"It's too difficult to get right without coming off as lewd.",0,c04,3
+"Cindy Banks","Oh my, make sure to leave your portfolio. I'd love to review it later",8,0,0
+You,"Continue",0,d05,0
+You,"Continue",0,d05,1
+You,"Continue",0,d05,2
+You,"Continue",0,d05,3
+"Cindy Banks","Being close minded won't get you anywhere in life, not as if your going far regardless",7,0,0
+You,"Continue",0,d05,0
+You,"Continue",0,d05,1
+You,"Continue",0,d05,2
+You,"Continue",0,d05,3
+"Cindy Banks","The amount of times I've heard that excuse...",10,0,0
+You,"Continue",0,d05,0
+You,"Continue",0,d05,1
+You,"Continue",0,d05,2
+You,"Continue",0,d05,3
+"Cindy Banks","Absolutely right, not to mention getting the clearance is a nightmare.",8,0,0
+You,"Continue",0,d05,0
+You,"Continue",0,d05,1
+You,"Continue",0,d05,2
+You,"Continue",0,d05,3
+"Cindy Banks","How far are you willing to go for the perfect shot?",9,0,0
+You,"As far as I need. When the art calls, I answer.",0,d01,0
+You,"All the way ",0,d02,1
+You,"Only as far as safety will allow. I want to live to take another picture.",0,d03,2
+You,"I will not even touch a camera, not since… the incident",0,d04,3
+"Cindy Banks","Exactly right! People don't understand how demanding art can be! ",8,0,0
+You,"Continue",0,e05,0
+You,"Continue",0,e05,1
+You,"Continue",0,e05,2
+You,"Continue",0,e05,3
+"Cindy Banks","I appreciate it when someone can satisfy...the clients needs, that is. ",8,0,0
+You,"Continue",0,e05,0
+You,"Continue",0,e05,1
+You,"Continue",0,e05,2
+You,"Continue",0,e05,3
+"Cindy Banks","That was exactly the kind of milk toast response I expected from someone who looks... the way you do ",10,0,0
+You,"Continue",0,e05,0
+You,"Continue",0,e05,1
+You,"Continue",0,e05,2
+You,"Continue",0,e05,3
+"Cindy Banks","I hope that's not the same incident I read about online, the pictures that came out of it were highly disturbing. ",7,0,0
+You,"Continue",0,e05,0
+You,"Continue",0,e05,1
+You,"Continue",0,e05,2
+You,"Continue",0,e05,3
+"Cindy Banks","What would be your greatest ... assets to my company",9,0,0
+You,"I'm dedicated to my craft",0,e01,0
+You,"I'm always on the cutting edge of trends",0,e02,1
+You,"I only speak when spoken to.",0,e03,2
+You,"I scream whenever I see a camera. Every time. Ever since… the incident.",0,e04,3
+"Cindy Banks", "What a vanilla response...",10,0,0
+You,"Continue",0,f05,0
+You,"Continue",0,f05,1
+You,"Continue",0,f05,2
+You,"Continue",0,f05,3
+"Cindy Banks","Yes! Trends are all that matters ",8,0,0
+You,"Continue",0,f05,0
+You,"Continue",0,f05,1
+You,"Continue",0,f05,2
+You,"Continue",0,f05,3
+"Cindy Banks","I love someone who takes orders so willingly",8,0,0
+You,"Continue",0,f05,0
+You,"Continue",0,f05,1
+You,"Continue",0,f05,2
+You,"Continue",0,f05,3
+"Cindy Banks","...",7,0,0
+You,"Continue",0,f05,0
+You,"Continue",0,f05,1
+You,"Continue",0,f05,2
+You,"Continue",0,f05,3
+"Cindy Banks", "Well I have to say, you surpassed my expectations! I'll have my people call your people!",8,0,0
+You,"Continue",0,End05,0
+You,"Continue",0,End05,1
+You,"Continue",0,End05,2
+You,"Continue",0,End05,3
+"Cindy Banks", "Can't say I'm surprised, but this isn't going to work out, sweetie. Your aren't what this company is looking for. You're not really what anyone is looking for...",10,0,0
+You,"Continue",0,End05,0
+You,"Continue",0,End05,1
+You,"Continue",0,End05,2
+You,"Continue",0,End05,3
+"Cindy Banks", "I have to say, you really captured my interest today... I'll be sure to give you my personal contact, I hope to hear from you soon...",8,0,0
+You,"Continue",0,End05,0
+You,"Continue",0,End05,1
+You,"Continue",0,End05,2
+You,"Continue",0,End05,3
+"???","Well hi there friend! My names Easton Weston, and I can't wait to hear what you have to say about the environment, friend! I represent Eco Friends, and we strive to find LIKE MINDED folks to help better our cause. I guess you could say I'm a real sap for the environment.",6,0,0
+You,"Continue",0,g05,0
+You,"Continue",0,g05,1
+You,"Continue",0,g05,2
+You,"Continue",0,g05,3
