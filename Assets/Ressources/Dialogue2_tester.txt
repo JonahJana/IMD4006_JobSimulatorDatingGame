@@ -28,8 +28,8 @@ You,"Continue",0,c05,0
 You,"Continue",0,c05,1
 You,"Continue",0,c05,2
 You,"Continue",0,c05,3
-"Cindy Banks","I envy the shots you must have captured.",8,0,0
-You,"Continue",0,c05,0
-You,"Continue",0,c05,1
-You,"Continue",0,c05,2
-You,"Continue",0,c05,3
+"Cindy Banks","How do you feel about nood photography?",9,0,0
+You,"Is there any other kind?",0,c01,0
+You,"Noodity is so distasteful.",0,c02,1
+You,"Done artfully it can be tasteful.",0,c03,2
+You,"It's too difficult to get right without coming off as lewd.",0,c04,3
