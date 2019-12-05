@@ -28,148 +28,173 @@ You,"Continue",0,c05,0
 You,"Continue",0,c05,1
 You,"Continue",0,c05,2
 You,"Continue",0,c05,3
-"Cindy Banks","How do you feel about nood photography? ",9,0,0
+"Cindy Banks","How do you feel about nood photography? ",9,0,7
 You,"Is there any other kind?",0,c01,0
 You,"Noodity is so distasteful.",0,c02,1
 You,"Done artfully it can be tasteful.",0,c03,2
 You,"It's too difficult to get right without coming off as lewd.",0,c04,3
-"Cindy Banks","Oh my, make sure to leave your portfolio. I'd love to review it later",8,0,0
+"Cindy Banks","Oh my, make sure to leave your portfolio. I'd love to review it later",8,0,5
 You,"Continue",0,d05,0
 You,"Continue",0,d05,1
 You,"Continue",0,d05,2
 You,"Continue",0,d05,3
-"Cindy Banks","Being close minded won't get you anywhere in life, not as if your going far regardless ",7,0,0
+"Cindy Banks","Being close minded won't get you anywhere in life, not as if your going far regardless ",7,0,8
 You,"Continue",0,d05,0
 You,"Continue",0,d05,1
 You,"Continue",0,d05,2
 You,"Continue",0,d05,3
-"Cindy Banks","The amount of times I've heard that excuse... ",10,0,0
+"Cindy Banks","The amount of times I've heard that excuse... ",10,0,4
 You,"Continue",0,d05,0
 You,"Continue",0,d05,1
 You,"Continue",0,d05,2
 You,"Continue",0,d05,3
-"Cindy Banks","Absolutely right, not to mention getting the clearance is a nightmare. ",8,0,0
+"Cindy Banks","Absolutely right, not to mention getting the clearance is a nightmare. ",8,0,5
 You,"Continue",0,d05,0
 You,"Continue",0,d05,1
 You,"Continue",0,d05,2
 You,"Continue",0,d05,3
-"Cindy Banks","How far are you willing to go for the perfect shot? ",9,0,0
+"Cindy Banks","How far are you willing to go for the perfect shot? ",9,0,7
 You,"As far as I need. When the art calls, I answer.",0,d01,0
 You,"All the way ",0,d02,1
 You,"Only as far as safety will allow. I want to live to take another picture. ",0,d03,2
 You,"I will not even touch a camera, not since... the incident",0,d04,3
-"Cindy Banks","Exactly right! People don't understand how demanding art can be! ",8,0,0
+"Cindy Banks","Exactly right! People don't understand how demanding art can be! ",8,0,5
 You,"Continue",0,e05,0
 You,"Continue",0,e05,1
 You,"Continue",0,e05,2
 You,"Continue",0,e05,3
-"Cindy Banks","I appreciate it when someone can satisfy...the clients needs, that is. ",8,0,0
+"Cindy Banks","I appreciate it when someone can satisfy...the clients needs, that is. ",8,0,5
 You,"Continue",0,e05,0
 You,"Continue",0,e05,1
 You,"Continue",0,e05,2
 You,"Continue",0,e05,3
-"Cindy Banks","That was exactly the kind of milk toast response I expected from someone who looks... the way you do. ",10,0,0
+"Cindy Banks","That was exactly the kind of milk toast response I expected from someone who looks... the way you do. ",10,0,8
 You,"Continue",0,e05,0
 You,"Continue",0,e05,1
 You,"Continue",0,e05,2
 You,"Continue",0,e05,3
-"Cindy Banks","I hope that's not the same incident I read about online, the pictures that came out of it were highly disturbing. ",7,0,0
+"Cindy Banks","I hope that's not the same incident I read about online, the pictures that came out of it were highly disturbing. ",7,0,4
 You,"Continue",0,e05,0
 You,"Continue",0,e05,1
 You,"Continue",0,e05,2
 You,"Continue",0,e05,3
-"Cindy Banks","What would be your greatest... assets to my company?  ",9,0,0
+"Cindy Banks","What would be your greatest... assets to my company?  ",9,0,7
 You,"I'm dedicated to my craft",0,e01,0
 You,"I'm always on the cutting edge of trends",0,e02,1
 You,"I only speak when spoken to.",0,e03,2
 You,"I scream whenever I see a camera. Every time. Ever since... the incident.",0,e04,3
-"Cindy Banks", "What a vanilla response... ",10,0,0
+"Cindy Banks", "What a vanilla response... ",10,0,8
 You,"Continue",0,f05,0
 You,"Continue",0,f05,1
 You,"Continue",0,f05,2
 You,"Continue",0,f05,3
-"Cindy Banks","Yes! Trends are all that matters ",8,0,0
+"Cindy Banks","Yes! Trends are all that matters ",8,0,5
 You,"Continue",0,f05,0
 You,"Continue",0,f05,1
 You,"Continue",0,f05,2
 You,"Continue",0,f05,3
-"Cindy Banks","I love someone who takes orders so willingly ",8,0,0
+"Cindy Banks","I love someone who takes orders so willingly ",8,0,5
 You,"Continue",0,f05,0
 You,"Continue",0,f05,1
 You,"Continue",0,f05,2
 You,"Continue",0,f05,3
-"Cindy Banks","...",7,0,0
+"Cindy Banks","...",7,0,4
 You,"Continue",0,f05,0
 You,"Continue",0,f05,1
 You,"Continue",0,f05,2
 You,"Continue",0,f05,3
-"Cindy Banks", "Well I have to say, you surpassed my expectations! I'll have my people call your people! ",8,0,0
+"Cindy Banks", "Well I have to say, you surpassed my expectations! I'll have my people call your people! ",8,0,5
 You,"Continue",0,End05,0
 You,"Continue",0,End05,1
 You,"Continue",0,End05,2
 You,"Continue",0,End05,3
-"Cindy Banks", "Can't say I'm surprised, but this isn't going to work out, sweetie. Your aren't what this company is looking for. You're not really what anyone is looking for... ",10,0,0
+"Cindy Banks", "Can't say I'm surprised, but this isn't going to work out, sweetie. Your aren't what this company is looking for. You're not really what anyone is looking for... ",10,0,8
 You,"Continue",0,End05,0
 You,"Continue",0,End05,1
 You,"Continue",0,End05,2
 You,"Continue",0,End05,3
-"Cindy Banks", "I have to say, you really captured my interest today... I'll be sure to give you my personal contact, I hope to hear from you soon... ",8,0,0
+"Cindy Banks", "I have to say, you really captured my interest today... I'll be sure to give you my personal contact, I hope to hear from you soon... ",8,0,5
 You,"Continue",0,End05,0
 You,"Continue",0,End05,1
 You,"Continue",0,End05,2
 You,"Continue",0,End05,3
-"???","Well hi there friend! My names Easton Weston, and I can't wait to hear what you have to say about the environment, friend! I represent Eco Friends, and we strive to find LIKE MINDED folks to help better our cause. I guess you could say I'm a real sap for the environment. ",6,0,0
+"???","Well hi there friend! My names Easton Weston, and I can't wait to hear what you have to say about the environment, friend! I represent Eco Friends, and we strive to find LIKE MINDED folks to help better our cause. I guess you could say I'm a real sap for the environment. ",6,0,11
 You,"Continue",0,g05,0
 You,"Continue",0,g05,1
 You,"Continue",0,g05,2
 You,"Continue",0,g05,3
-"Easton Weston"," First things first, how did you get here today?  ",6,0,0
+"Easton Weston"," First things first, how did you get here today?  ",6,0,12
 You,"I took the bus, hence why I was late",0,g01,0
 You,"I drove, I wanted to be punctual, friend!",0,g02,1
 You,"The wind brought me here, I guess it was meant to be.",0,g03,2
 You,"What really matters, is if I'll be going home with you later? ",0,g04,3
-"Easton Weston"," No problemo friend! What matters is your reducing cars on the road   ",5,0,0
+"Easton Weston"," No problemo friend! What matters is your reducing cars on the road   ",5,0,10
 You,"Continue",0,h05,0
 You,"Continue",0,h05,1
 You,"Continue",0,h05,2
 You,"Continue",0,h05,3
-"Easton Weston"," I suppose, but all those terrible chemicals being put into our poor atmosphere, just for one person!?  ",3,0,0
+"Easton Weston"," I suppose, but all those terrible chemicals being put into our poor atmosphere, just for one person!?  ",3,0,9
 You,"Continue",0,h05,0
 You,"Continue",0,h05,1
 You,"Continue",0,h05,2
 You,"Continue",0,h05,3
-"Easton Weston"," That's... unusual   ",4,0,0
+"Easton Weston"," That's... unusual   ",4,0,13
 You,"Continue",0,h05,0
 You,"Continue",0,h05,1
 You,"Continue",0,h05,2
 You,"Continue",0,h05,3
-"Easton Weston"," Oh do you need a ride? No problem friend I have room for a carpool!  ",5,0,0
+"Easton Weston"," Oh do you need a ride? No problem friend I have room for a carpool!  ",5,0,10
 You,"Continue",0,h05,0
 You,"Continue",0,h05,1
 You,"Continue",0,h05,2
 You,"Continue",0,h05,3
-"Easton Weston"," What's your favourite kind of tree, friend?  ",6,0,0
-You,"The mighty oak! So strong and inspiring!",0,g01,0
-You,"Any tree, as long as its trunk is thicc ",0,g02,1
-You,"Can't say I have a favorite...?",0,g03,2
-You,"What really matters, is if I'll be going home with you later? ",0,g04,3
-"Easton Weston","I’d have to say sunflowers, hands down ",5,0,0
-You,"Continue",0,h05,0
-You,"Continue",0,h05,1
-You,"Continue",0,h05,2
-You,"Continue",0,h05,3
-"Easton Weston"," I suppose, but all those terrible chemicals being put into our poor atmosphere, just for one person!?  ",3,0,0
-You,"Continue",0,h05,0
-You,"Continue",0,h05,1
-You,"Continue",0,h05,2
-You,"Continue",0,h05,3
-"Easton Weston"," That's... unusual   ",4,0,0
-You,"Continue",0,h05,0
-You,"Continue",0,h05,1
-You,"Continue",0,h05,2
-You,"Continue",0,h05,3
-"Easton Weston"," Oh do you need a ride? No problem friend I have room for a carpool!  ",5,0,0
-You,"Continue",0,h05,0
-You,"Continue",0,h05,1
-You,"Continue",0,h05,2
-You,"Continue",0,h05,3
+"Easton Weston"," What's your favourite kind of tree, friend?  ",6,0,12
+You,"The mighty oak! So strong and inspiring!",0,h01,0
+You,"Any tree, as long as its trunk is thicc ",0,h02,1
+You,"Can't say I have a favorite...?",0,h03,2
+You,"I'd have to say sunflowers, hands down ",0,h04,3
+"Easton Weston","I agree, but I don't like to single out one tree, it may hurt the rest of the tree's feelings!  ",3,0,9
+You,"Continue",0,i05,0
+You,"Continue",0,i05,1
+You,"Continue",0,i05,2
+You,"Continue",0,i05,3
+"Easton Weston"," A healthy tree is a happy tree after all!   ",5,0,10
+You,"Continue",0,i05,0
+You,"Continue",0,i05,1
+You,"Continue",0,i05,2
+You,"Continue",0,i05,3
+"Easton Weston","Me either! I love them all equally!    ",5,0,10
+You,"Continue",0,i05,0
+You,"Continue",0,i05,1
+You,"Continue",0,i05,2
+You,"Continue",0,i05,3
+"Easton Weston"," Those, uh... are not trees... but I appreciate the enthusiasm?   ",4,0,13
+You,"Continue",0,i05,0
+You,"Continue",0,i05,1
+You,"Continue",0,i05,2
+You,"Continue",0,i05,3
+"Easton Weston","So this job would involve a lot of early mornings, rain or shine, how do you feel about that friend?  ",6,0,12
+You,"I'm a total night owl, would I be able to work nights instead?",0,i01,0
+You,"Waking up to you? Sounds like the dream ",0,i02,1
+You,"I'm a morning person, so long as I have my coffee from Tom Hartons, I'm good!",0,i03,2
+You,"When the trees call, I answer, friend. ",0,i04,3
+"Easton Weston","Wow we've never had many people for the night shift! Imagine the possibili'trees!  ",5,0,10
+You,"Continue",0,k05,0
+You,"Continue",0,k05,1
+You,"Continue",0,k05,2
+You,"Continue",0,k05,3
+"Easton Weston"," Oh no friend, we don't sleep at the site, but if it's a place you need, I could set up the couch!    ",5,0,10
+You,"Continue",0,k05,0
+You,"Continue",0,k05,1
+You,"Continue",0,k05,2
+You,"Continue",0,k05,3
+"Easton Weston","Tommies? But all those bad disposable cups... our mother earth won't appreciate that.   ",3,0,9
+You,"Continue",0,k05,0
+You,"Continue",0,k05,1
+You,"Continue",0,k05,2
+You,"Continue",0,k05,3
+"Easton Weston"," That's... good I guess? You can just say yes next time, friend.   ",4,0,13
+You,"Continue",0,k05,0
+You,"Continue",0,k05,1
+You,"Continue",0,k05,2
+You,"Continue",0,k05,3
