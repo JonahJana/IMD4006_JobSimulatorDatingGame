@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueBox : MonoBehaviour
 {
@@ -48,16 +49,22 @@ public class DialogueBox : MonoBehaviour
     int CindySeducepoint = 0;
 
     int totalCinPts =0;
+    bool CinDate = false;
+    bool CinpJob = false;
 
     int Eastonpoint = 0;
     int EastonpointSeduce = 0;
 
     int totalEastPts = 0;
+    bool EastDate = false;
+    bool EastJob = false;
 
     int ChipPoint = 0;
     int ChipFlirtpoint = 0;
 
     int totalChipPts = 0;
+    bool ChipDate = false;
+    bool ChipJob = false;
 
     bool firsttime = true;
     bool akward = false;
@@ -89,6 +96,11 @@ public class DialogueBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+
         if (firsttime)
         {
             StartCoroutine(Fadein_bg());
@@ -210,7 +222,7 @@ public class DialogueBox : MonoBehaviour
             case "p03": ChipaddPoint(); lineNum = 335; Sequence = NextSquence; resetButon(); break;
             case "p04": ChipFlirtPoint(); lineNum = 340; Sequence = NextSquence; resetButon(); break;
             case "q05":  Sequence = NextSquence; resetButon(); Resetbg(); selectEndingChip();break;
-            case "EndC05": StartCoroutine(Fadeinout_bg());  resetButon(); Resetbg(); break;
+            case "EndC05": StartCoroutine(Fadeinout_bg());  resetButon(); Resetbg(); GameEnding();break;
 
 
 
@@ -222,10 +234,59 @@ public class DialogueBox : MonoBehaviour
 
     void GameEnding()
     {
+        interviewerName.text = "ENDING";
+        interviewer.GetComponent<Image>().color = new Color(1, 1, 1, 0);
+        dialogue = "THANKS FOR PLAYING HERE ARE YOUR RESULT \n";
+        if (CinDate)
+        {
+            dialogue = dialogue + "You got a date with Cindy \n";
+        }
+        else if (CinpJob)
+        {
+            dialogue = dialogue + "You impress Cindy and landed a job offer \n";
+        }
+        else
+        {
+            dialogue = dialogue + "You failed to impress Cindy and  never landed a job offer \n";
+        }
+        if (ChipDate)
+        {
+            dialogue = dialogue + "You got a date with Chip \n";
+        }
+        else if (ChipJob)
+        {
+            dialogue = dialogue + "You impress Chip and landed a job offer \n";
+        }
+        else
+        {
+            dialogue = dialogue + "You failed to impress Chip and  never landed a job offer \n";
+        }
+        if (EastDate)
+        {
+            dialogue = dialogue + "You got a date with Easton \n";
+        }
+        else if (EastJob)
+        {
+            dialogue = dialogue + "You impress Easton and landed a job offer \n";
+        }
+        else
+        {
+            dialogue = dialogue + "You failed to impress Easton and  never landed a job offer \n";
+        }
+        StartCoroutine(TypeText());
 
+        for (int i = 0; i < 4; i++)
+        {
+            dialogue_btns = "Go back to the Main menu";
+            ButtonsChoice[i].GetComponentInChildren<Text>().text = dialogue_btns;    
+            ButtonsChoice[i].onClick.AddListener(delegate { MainMenu(); });
+        }
     }
 
-
+    void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+    }
     //I remove all the listener from the button cause if we didnt do that they would stack upon each other and cause us a lot of pain
     void resetButon()
     {
@@ -242,9 +303,11 @@ public class DialogueBox : MonoBehaviour
         totalCinPts = Cindypoint + CindySeducepoint;
         if (totalCinPts >= 3 && CindySeducepoint < 3)
         {
+            CinpJob = true;
             lineNum = 105;
         }else if (CindySeducepoint >= 3)
         {
+            CinDate = true;
             StartCoroutine(LoveIntheAir());
             lineNum = 115;
         }
@@ -262,10 +325,12 @@ public class DialogueBox : MonoBehaviour
 
         if (totalEastPts >= 3 && EastonpointSeduce < 3)
         {
+            EastJob = true;
             lineNum = 225;
         }
         else if (EastonpointSeduce >= 3)
         {
+            EastDate = true;
             StartCoroutine(LoveIntheAir());
             lineNum = 235;
         }
@@ -283,10 +348,12 @@ public class DialogueBox : MonoBehaviour
 
         if (totalChipPts >= 3 && ChipFlirtpoint < 3)
         {
+            ChipJob = true;
             lineNum = 345;
         }
         else if (ChipFlirtpoint >= 3)
         {
+            ChipDate = true;
             StartCoroutine(LoveIntheAir());
             lineNum = 355;
         }

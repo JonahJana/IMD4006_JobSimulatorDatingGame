@@ -27,6 +27,15 @@ public class initGame : MonoBehaviour
         explaintBG.color = new Color(1, 1, 1, 0);
     }
 
+
+     void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
+
     void StartTheGame()
     {
         SceneManager.LoadScene("Parser_test_game", LoadSceneMode.Single);
