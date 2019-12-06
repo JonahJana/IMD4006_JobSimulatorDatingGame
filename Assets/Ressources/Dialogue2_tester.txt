@@ -198,3 +198,163 @@ You,"Continue",0,k05,0
 You,"Continue",0,k05,1
 You,"Continue",0,k05,2
 You,"Continue",0,k05,3
+"Easton Weston","This job involves some pretty heavy lifting, friend, think you can handle it? ",6,0,12
+You,"I don't have arms, friend.",0,k01,0
+You,"I'll do my best, I'll have to adapt on the job, though. ",0,k02,1
+You,"I'm used to taking big loads, don't you worry.",0,k03,2
+You,"Sure can! I go to the gym and I've been bulking up on plant based proteins!! ",0,k04,3
+"Easton Weston","Wow, now that you mention it, I didn't even notice. ",3,0,9
+You,"Continue",0,l05,0
+You,"Continue",0,l05,1
+You,"Continue",0,l05,2
+You,"Continue",0,l05,3
+"Easton Weston"," That's a good attitude friend! We'll start you off easy!   ",5,0,10
+You,"Continue",0,l05,0
+You,"Continue",0,l05,1
+You,"Continue",0,l05,2
+You,"Continue",0,k05,3
+"Easton Weston","That's great, but don't strain yourself! I can give you my chiropractors number, friend!   ",5,0,10
+You,"Continue",0,l05,0
+You,"Continue",0,l05,1
+You,"Continue",0,l05,2
+You,"Continue",0,l05,3
+"Easton Weston","You're eating my friends, friend?   ",3,0,9
+You,"Continue",0,l05,0
+You,"Continue",0,l05,1
+You,"Continue",0,l05,2
+You,"Continue",0,l05,3
+"Easton Weston", "Oh boy friend! You did so great today! You made me and the trees smile. You'll be sure to hear from us soon! ",5,0,10
+You,"Continue",0,EndB05,0
+You,"Continue",0,EndB05,1
+You,"Continue",0,EndB05,2
+You,"Continue",0,EndB05,3
+"Easton Weston", "I'm so sorry friend but I just don't think your the best type of friend for eco friends, I speak for the trees and they don't seem to like you all that much...",3,0,13
+You,"Continue",0,EndB05,0
+You,"Continue",0,EndB05,1
+You,"Continue",0,EndB05,2
+You,"Continue",0,EndB05,3
+"Easton Weston", "I have to say, you really captured my interest today... I'll be sure to give you my personal contact, I hope to hear from you soon... ",5,0,10
+You,"Continue",0,EndB05,0
+You,"Continue",0,EndB05,1
+You,"Continue",0,EndB05,2
+You,"Continue",0,EndB05,3
+"???","Ahoy, maty, welcome to the Captain Skippy's chicken shop interview. My name is Chip, my last name isn't important. I'm thrilled to be here today to represent the company. Along with my manager, who bailed last minute and roped me into this. I was supposed to go Juul with my boys today, but I guess I'm here. Looks like we'll both leave disappointed.",2,0,2
+You,"Continue",0,m05,0
+You,"Continue",0,m05,1
+You,"Continue",0,m05,2
+You,"Continue",0,m05,3
+"Chip","... ",1,0,2
+You,"Are you going to ask me any questions?",0,m01,0
+You,"So how do you like working here?",0,m02,1
+You,"I love the eboy vibes you got going, man",0,m03,2
+You,"Do you.. Wanna see my resume?",0,m04,3
+"Chip","No",2,0,3
+You,"Continue",0,n05,0
+You,"Continue",0,n05,1
+You,"Continue",0,n05,2
+You,"Continue",0,n05,3
+"Chip","Don’t mock me ",2,0,3
+You,"Continue",0,n05,0
+You,"Continue",0,n05,1
+You,"Continue",0,n05,2
+You,"Continue",0,n05,3
+"Chip","Oh.. Thank you, It took a lot of time to get this intense of a middle part. ",0,0,0
+You,"Continue",0,n05,0
+You,"Continue",0,n05,1
+You,"Continue",0,n05,2
+You,"Continue",0,n05,3
+"Chip"," I guess my manager would want it later ",2,0,3
+You,"Continue",0,n05,0
+You,"Continue",0,n05,1
+You,"Continue",0,n05,2
+You,"Continue",0,n05,3
+"Chip","... ",1,0,2
+You,"I've uh always been a fan of chicken!",0,n01,0
+You,"So there are uniforms?",0,n02,1
+You,"My boy Danny dropped my Juul down a water drain.",0,n03,2
+You,"You don't speak with a whole lot of emotion ",0,n04,3
+"Chip","No surprises there",2,0,3
+You,"Continue",0,o05,0
+You,"Continue",0,005,1
+You,"Continue",0,o05,2
+You,"Continue",0,o05,3
+"Chip","We don't talk about it ",2,0,3
+You,"Continue",0,o05,0
+You,"Continue",0,o05,1
+You,"Continue",0,o05,2
+You,"Continue",0,o05,3
+"Chip","F in the chat bro... ",2,0,1
+You,"Continue",0,o05,0
+You,"Continue",0,o05,1
+You,"Continue",0,o05,2
+You,"Continue",0,o05,3
+"Chip"," Yeah I'm known for that ",0,0,0
+You,"Continue",0,o05,0
+You,"Continue",0,o05,1
+You,"Continue",0,o05,2
+You,"Continue",0,o05,3
+"Chip","... ",1,0,2
+You,"So are all the employees as cool as you? ",0,o01,0
+You,"You sure are boring",0,o02,1
+You,"Why am I even here?",0,o03,2
+You,"Wanna eat chicken sometime together?",0,o04,3
+"Chip","Sarcasm..I'm into that",0,0,0
+You,"Continue",0,p05,0
+You,"Continue",0,p05,1
+You,"Continue",0,p05,2
+You,"Continue",0,p05,3
+"Chip","Yeah  ",2,0,3
+You,"Continue",0,p05,0
+You,"Continue",0,p05,1
+You,"Continue",0,p05,2
+You,"Continue",0,p05,3
+"Chip"," I feel you dude  ",2,0,1
+You,"Continue",0,p05,0
+You,"Continue",0,p05,1
+You,"Continue",0,p05,2
+You,"Continue",0,p05,3
+"Chip"," Chicken has destroyed me  ",2,0,3
+You,"Continue",0,p05,0
+You,"Continue",0,p05,1
+You,"Continue",0,p05,2
+You,"Continue",0,p05,3
+"Chip","... ",1,0,2
+You,"This has been...pleasant? ",0,p01,0
+You,"So should I just leave or...?",0,p02,1
+You,"...",0,p03,2
+You,"Welp was nice meeting you!",0,p04,3
+"Chip","No it really hasn't ",2,0,3
+You,"Continue",0,q05,0
+You,"Continue",0,q05,1
+You,"Continue",0,q05,2
+You,"Continue",0,q05,3
+"Chip","Yeah  ",2,0,3
+You,"Continue",0,q05,0
+You,"Continue",0,q05,1
+You,"Continue",0,q05,2
+You,"Continue",0,q05,3
+"Chip","...  ",1,0,1
+You,"Continue",0,q05,0
+You,"Continue",0,q05,1
+You,"Continue",0,q05,2
+You,"Continue",0,q05,3
+"Chip"," Here's my twitter handle if you wanna like... DM later   ",0,0,0
+You,"Continue",0,q05,0
+You,"Continue",0,q05,1
+You,"Continue",0,q05,2
+You,"Continue",0,q05,3
+"Chip","Well I'll get my manager to call you, couldn't hurt to have some cool people on staff.  ",2,0,1
+You,"Continue",0,EndC05,0
+You,"Continue",0,EndC05,1
+You,"Continue",0,EndC05,2
+You,"Continue",0,EndC05,3
+"Chip"," Dude I don't know what to tell ya, I just wanna get out of here and meet up with my boys. Make this less awkward and just go, man.   ",2,0,3
+You,"Continue",0,EndC05,0
+You,"Continue",0,EndC05,1
+You,"Continue",0,EndC05,2
+You,"Continue",0,EndC05,3
+"Chip","I'll be sure to pass you onto my manager, I won't mind working so much if you're there. See you in the broom closet. Because we have to sweep the floor a lot. The place is disgusting.  ",0,0,0
+You,"Continue",0,EndC05,0
+You,"Continue",0,EndC05,1
+You,"Continue",0,EndC05,2
+You,"Continue",0,EndC05,3

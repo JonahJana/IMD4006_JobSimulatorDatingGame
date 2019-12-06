@@ -47,8 +47,17 @@ public class DialogueBox : MonoBehaviour
     int Cindypoint = 0;
     int CindySeducepoint = 0;
 
+    int totalCinPts =0;
+
     int Eastonpoint = 0;
     int EastonpointSeduce = 0;
+
+    int totalEastPts = 0;
+
+    int ChipPoint = 0;
+    int ChipFlirtpoint = 0;
+
+    int totalChipPts = 0;
 
     bool firsttime = true;
     bool akward = false;
@@ -156,7 +165,7 @@ public class DialogueBox : MonoBehaviour
             case "e02": addCindypoint(); lineNum = 90; Sequence = NextSquence; resetButon(); break;
             case "e03": addCindyFlirtpoint(); lineNum = 95; Sequence = NextSquence; resetButon(); break;
             case "e04": lineNum = 100; Sequence = NextSquence; resetButon(); badSitution(); break;
-            case "f05": selectEndingCindy(); Sequence = NextSquence; resetButon(); Resetbg(); break;
+            case "f05":  Sequence = NextSquence; resetButon(); Resetbg(); selectEndingCindy();break;
             case "End05": StartCoroutine(Fadeinout_bg()); lineNum = 120; Sequence = NextSquence; resetButon(); Resetbg(); break;
             case "g05":lineNum = 125; Sequence = NextSquence; resetButon(); Resetbg(); break;
             case "g01": addEpoint(); lineNum = 130; Sequence = NextSquence; resetButon(); break;
@@ -173,10 +182,50 @@ public class DialogueBox : MonoBehaviour
             case "i02": addEFlirtpoint(); lineNum = 185; Sequence = NextSquence; resetButon(); break;
             case "i03":  lineNum = 190; Sequence = NextSquence; resetButon(); break;
             case "i04": lineNum = 195; Sequence = NextSquence; resetButon(); badSitution(); break;
+            case "k05": lineNum = 200; Sequence = NextSquence; resetButon(); Resetbg(); break;
+            case "k01":  lineNum = 205; Sequence = NextSquence; resetButon(); badSitution(); break;
+            case "k02": addEpoint(); lineNum = 210; Sequence = NextSquence; resetButon(); break;
+            case "k03": addEFlirtpoint(); lineNum = 215; Sequence = NextSquence; resetButon(); break;
+            case "k04": lineNum = 220; Sequence = NextSquence; resetButon();  break;
+            case "l05":  Sequence = NextSquence; resetButon(); Resetbg(); selectEndingEaston();break;
+            case "EndB05": StartCoroutine(Fadeinout_bg()); lineNum = 240; Sequence = NextSquence; resetButon(); Resetbg(); break;
+            case "m05": lineNum = 245; Sequence = NextSquence; resetButon(); Resetbg(); break;
+            case "m01": lineNum = 250; Sequence = NextSquence; resetButon(); break;
+            case "m02": lineNum = 255; Sequence = NextSquence; resetButon(); badSitution(); break;
+            case "m03": ChipFlirtPoint(); lineNum = 260; Sequence = NextSquence; resetButon(); break;
+            case "m04": ChipaddPoint(); lineNum = 265; Sequence = NextSquence; resetButon(); break;
+            case "n05": lineNum = 270; Sequence = NextSquence; resetButon(); Resetbg(); break;
+            case "n01": lineNum = 275; Sequence = NextSquence; resetButon(); break;
+            case "n02": lineNum = 280; Sequence = NextSquence; resetButon(); badSitution();  break;
+            case "n03":ChipaddPoint(); lineNum = 285; Sequence = NextSquence; resetButon(); break;
+            case "n04": ChipFlirtPoint();  lineNum = 290; Sequence = NextSquence; resetButon(); break;
+            case "o05": lineNum = 295; Sequence = NextSquence; resetButon(); Resetbg(); break;
+            case "o01": ChipFlirtPoint(); lineNum = 300; Sequence = NextSquence; resetButon(); break;
+            case "o02": lineNum = 305; Sequence = NextSquence; resetButon(); break;
+            case "o03": ChipaddPoint(); lineNum = 310; Sequence = NextSquence; resetButon(); break;
+            case "o04": lineNum = 315; Sequence = NextSquence; resetButon(); badSitution(); break;
+            case "p05": lineNum = 320; Sequence = NextSquence; resetButon(); Resetbg(); break;
+            case "p01":  lineNum = 325; Sequence = NextSquence; resetButon(); badSitution(); break;
+            case "p02": lineNum = 330; Sequence = NextSquence; resetButon(); break;
+            case "p03": ChipaddPoint(); lineNum = 335; Sequence = NextSquence; resetButon(); break;
+            case "p04": ChipFlirtPoint(); lineNum = 340; Sequence = NextSquence; resetButon(); break;
+            case "q05":  Sequence = NextSquence; resetButon(); Resetbg(); selectEndingChip();break;
+            case "EndC05": StartCoroutine(Fadeinout_bg());  resetButon(); Resetbg(); break;
+
+
+
 
         }
 
     }
+
+
+    void GameEnding()
+    {
+
+    }
+
+
     //I remove all the listener from the button cause if we didnt do that they would stack upon each other and cause us a lot of pain
     void resetButon()
     {
@@ -189,7 +238,9 @@ public class DialogueBox : MonoBehaviour
 
     void selectEndingCindy()
     {
-        if (Cindypoint >= 3)
+
+        totalCinPts = Cindypoint + CindySeducepoint;
+        if (totalCinPts >= 3 && CindySeducepoint < 3)
         {
             lineNum = 105;
         }else if (CindySeducepoint >= 3)
@@ -199,6 +250,7 @@ public class DialogueBox : MonoBehaviour
         }
         else
         {
+            badSitution();
             lineNum = 110;
         }
     }
@@ -206,19 +258,45 @@ public class DialogueBox : MonoBehaviour
 
     void selectEndingEaston()
     {
-        if (Eastonpoint >= 3)
+        totalEastPts = Eastonpoint + EastonpointSeduce;
+
+        if (totalEastPts >= 3 && EastonpointSeduce < 3)
         {
-            lineNum = 105;
+            lineNum = 225;
         }
         else if (EastonpointSeduce >= 3)
         {
-            lineNum = 115;
+            StartCoroutine(LoveIntheAir());
+            lineNum = 235;
         }
         else
         {
-            lineNum = 110;
+            badSitution();
+            lineNum = 230;
         }
     }
+
+
+    void selectEndingChip()
+    {
+        totalChipPts = ChipPoint + ChipFlirtpoint;
+
+        if (totalChipPts >= 3 && ChipFlirtpoint < 3)
+        {
+            lineNum = 345;
+        }
+        else if (ChipFlirtpoint >= 3)
+        {
+            StartCoroutine(LoveIntheAir());
+            lineNum = 355;
+        }
+        else
+        {
+            badSitution();
+            lineNum = 350;
+        }
+    }
+
 
     void addCindypoint()
     {
@@ -244,6 +322,16 @@ public class DialogueBox : MonoBehaviour
         StartCoroutine(LoveIntheAir());
         EastonpointSeduce++;
         //Debug.Log(CindySeducepoint);
+    }
+
+    void ChipaddPoint()
+    {
+        ChipPoint++;
+    }
+    void ChipFlirtPoint()
+    {
+        StartCoroutine(LoveIntheAir());
+        ChipFlirtpoint++;
     }
 
      void Resetbg()

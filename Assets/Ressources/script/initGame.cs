@@ -9,6 +9,12 @@ public class initGame : MonoBehaviour
 {
     public Button startGame;
     public Button Quit;
+    public Button How;
+    
+    public Text explainText;
+    public Image explaintBG;
+
+    bool Show = true; 
 
     // Start is called before the first frame update
     void Start()
@@ -16,15 +22,35 @@ public class initGame : MonoBehaviour
         startGame.onClick.AddListener(StartTheGame);
 
         Quit.onClick.AddListener(QuitTheGame);
+        How.onClick.AddListener(ShowExplanation);
+        explainText.color = new Color(1, 1, 1, 0);
+        explaintBG.color = new Color(1, 1, 1, 0);
     }
 
     void StartTheGame()
     {
-        SceneManager.LoadScene("intro_1", LoadSceneMode.Single);
+        SceneManager.LoadScene("Parser_test_game", LoadSceneMode.Single);
     }
 
     void QuitTheGame()
     {
         Application.Quit();
+    }
+
+    void ShowExplanation()
+    {
+        if (Show)
+        {
+            explainText.color = new Color(1, 1, 1, 1);
+            explaintBG.color = new Color(1, 1, 1, 1);
+            Show = false;
+        }
+        else
+        {
+            explainText.color = new Color(1, 1, 1, 0);
+            explaintBG.color = new Color(1, 1, 1, 0);
+            Show = true;
+        }
+
     }
 }
