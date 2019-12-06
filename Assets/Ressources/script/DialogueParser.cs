@@ -5,7 +5,7 @@ using UnityEditor;
 using System.Text;
 using System.IO;
 using System.Text.RegularExpressions;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using System.Linq;
 
 
@@ -13,9 +13,10 @@ public class DialogueParser : MonoBehaviour
 {
 
     List<DialogueLine> lines;
-
+   
     struct DialogueLine
     {
+       
         public string name;
         public string content;
         public int pose;
@@ -30,20 +31,20 @@ public class DialogueParser : MonoBehaviour
             choice = ch;
             value = v;
         }
-    } 
-
+    }
+    public TextAsset Dialoge;
     // Start is called before the first frame update
     void Start()
     {
         string file = "Dialogue2_tester";
-        string sceneNum = EditorApplication.currentScene;
-        sceneNum = Regex.Replace(sceneNum, "[^0-9]","");
-        file += sceneNum;
+        
+        
         file += ".txt";
 
 
         lines = new List<DialogueLine>();
-        LoadDialogue (file); 
+        LoadDialogue (file);
+        Debug.Log(file);
     }
 
     // Update is called once per frame
